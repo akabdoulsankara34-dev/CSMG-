@@ -1,0 +1,309 @@
+[
+  {
+    "id": 1738896000004,
+    "title": "Mathématiques - Primitives et intégrales",
+    "desc": "QCM de révision sur les primitives et les intégrales (Terminale D)",
+    "questions": [
+      {
+        "q": "Qu'est-ce qu'une primitive de f sur un intervalle I ?",
+        "a": ["Une fonction F telle que F' = f", "Une fonction F telle que f' = F", "L'aire sous la courbe de f", "La dérivée de f"],
+        "c": 0
+      },
+      {
+        "q": "Si F et G sont deux primitives de f sur I, alors :",
+        "a": ["F - G est constante", "F = G", "F + G est constante", "F × G est constante"],
+        "c": 0
+      },
+      {
+        "q": "Une primitive de x^n (n ≠ -1) est :",
+        "a": ["x^(n+1)/(n+1)", "n x^(n-1)", "ln|x|", "x^(n-1)/n"],
+        "c": 0
+      },
+      {
+        "q": "Une primitive de 1/x sur ]0;+∞[ est :",
+        "a": ["ln|x|", "1/x²", "x ln x", "e^x"],
+        "c": 0
+      },
+      {
+        "q": "Une primitive de e^x est :",
+        "a": ["e^x", "ln x", "1/x", "x e^x"],
+        "c": 0
+      },
+      {
+        "q": "Une primitive de cos x est :",
+        "a": ["sin x", "-sin x", "cos x", "-cos x"],
+        "c": 0
+      },
+      {
+        "q": "Une primitive de sin x est :",
+        "a": ["-cos x", "cos x", "sin x", "-sin x"],
+        "c": 0
+      },
+      {
+        "q": "La primitive de u' e^u est :",
+        "a": ["e^u", "u e^u", "ln|u|", "u' e^u"],
+        "c": 0
+      },
+      {
+        "q": "La primitive de u'/u (u>0) est :",
+        "a": ["ln|u|", "1/u", "u ln u", "e^u"],
+        "c": 0
+      },
+      {
+        "q": "Que vaut ∫ de a à a de f(x) dx ?",
+        "a": ["0", "f(a)", "F(a)", "1"],
+        "c": 0
+      },
+      {
+        "q": "La relation de Chasles s'écrit :",
+        "a": ["∫a à c f = ∫a à b f + ∫b à c f", "∫a à b f = ∫b à a f", "∫a à b f = -∫b à a f", "∫a à b (f+g) = ∫a à b f + ∫a à b g"],
+        "c": 0
+      },
+      {
+        "q": "Si a < b et f ≥ 0 sur [a,b], alors ∫a à b f(x) dx est :",
+        "a": ["≥ 0", "≤ 0", "= 0", "Toujours positif"],
+        "c": 0
+      },
+      {
+        "q": "Si f ≤ g sur [a,b], alors ∫a à b f(x) dx ... ∫a à b g(x) dx",
+        "a": ["≤", "≥", "=", "≠"],
+        "c": 0
+      },
+      {
+        "q": "Que vaut ∫a à b k f(x) dx ?",
+        "a": ["k ∫a à b f(x) dx", "∫a à b k dx × ∫a à b f(x) dx", "f(k) ∫a à b dx", "k (b-a)"],
+        "c": 0
+      },
+      {
+        "q": "L'intégrale ∫a à b f(x) dx représente géométriquement :",
+        "a": ["L'aire signée sous la courbe", "La pente de f", "La dérivée de f", "La valeur moyenne"],
+        "c": 0
+      },
+      {
+        "q": "Si f est impaire sur [-a,a], alors ∫-a à a f(x) dx =",
+        "a": ["0", "2∫0 à a f(x) dx", "∫0 à a f(x) dx", "F(a) - F(-a)"],
+        "c": 0
+      },
+      {
+        "q": "Si f est paire sur [-a,a], alors ∫-a à a f(x) dx =",
+        "a": ["2∫0 à a f(x) dx", "0", "∫0 à a f(x) dx", "F(a) - F(-a)"],
+        "c": 0
+      },
+      {
+        "q": "La valeur moyenne de f sur [a,b] est :",
+        "a": ["(1/(b-a)) ∫a à b f(x) dx", "∫a à b f(x) dx", "f((a+b)/2)", "(b-a) ∫a à b f(x) dx"],
+        "c": 0
+      },
+      {
+        "q": "∫0 à 1 x dx =",
+        "a": ["1/2", "1", "0", "2"],
+        "c": 0
+      },
+      {
+        "q": "∫1 à e (1/x) dx =",
+        "a": ["1", "0", "e-1", "ln(e) - ln(1)"],
+        "c": 0
+      },
+      {
+        "q": "∫0 à π/2 cos x dx =",
+        "a": ["1", "0", "π/2", "-1"],
+        "c": 0
+      },
+      {
+        "q": "∫0 à π sin x dx =",
+        "a": ["2", "0", "1", "π"],
+        "c": 0
+      },
+      {
+        "q": "Si F est une primitive de f, alors ∫a à b f(x) dx =",
+        "a": ["F(b) - F(a)", "F(a) - F(b)", "f(b) - f(a)", "F'(b) - F'(a)"],
+        "c": 0
+      },
+      {
+        "q": "La formule d'intégration par parties s'écrit :",
+        "a": ["∫u'v = uv - ∫uv'", "∫uv = u∫v + v∫u", "∫u'v' = uv - ∫uv", "∫u/v = u∫1/v - ∫u'∫1/v"],
+        "c": 0
+      },
+      {
+        "q": "Pour calculer ∫ ln x dx, on utilise :",
+        "a": ["Intégration par parties", "Changement de variable", "Linéarité", "Dérivation"],
+        "c": 0
+      },
+      {
+        "q": "∫ x e^x dx =",
+        "a": ["(x-1)e^x + C", "x e^x + C", "e^x + C", "(x+1)e^x + C"],
+        "c": 0
+      },
+      {
+        "q": "∫0 à 1 e^x dx =",
+        "a": ["e - 1", "1", "e", "0"],
+        "c": 0
+      },
+      {
+        "q": "Si f est continue positive sur [a,b], l'aire sous la courbe est :",
+        "a": ["∫a à b f(x) dx", "-∫a à b f(x) dx", "|∫a à b f(x) dx|", "F(b) - F(a)"],
+        "c": 0
+      },
+      {
+        "q": "Pour f(x) = x², une primitive est :",
+        "a": ["x³/3", "2x", "x²", "x³"],
+        "c": 0
+      },
+      {
+        "q": "∫ (2x+3) dx =",
+        "a": ["x² + 3x + C", "2x² + 3x + C", "x² + 3", "2x + 3 + C"],
+        "c": 0
+      },
+      {
+        "q": "La primitive de 1/(x+1) sur ]-1,+∞[ est :",
+        "a": ["ln|x+1|", "1/(x+1)²", "ln x", "e^(x+1)"],
+        "c": 0
+      },
+      {
+        "q": "∫ cos(2x) dx =",
+        "a": ["(1/2) sin(2x) + C", "sin(2x) + C", "2 sin(2x) + C", "-sin(2x)/2 + C"],
+        "c": 0
+      },
+      {
+        "q": "∫ sin(3x) dx =",
+        "a": ["-(1/3) cos(3x) + C", "cos(3x) + C", "-3 cos(3x) + C", "(1/3) cos(3x) + C"],
+        "c": 0
+      },
+      {
+        "q": "Si F'(x) = f(x) et G'(x) = g(x), alors une primitive de f+g est :",
+        "a": ["F+G", "F×G", "F/G", "F∘G"],
+        "c": 0
+      },
+      {
+        "q": "La dérivée de ∫0 à x f(t) dt par rapport à x est :",
+        "a": ["f(x)", "f(0)", "F(x) - F(0)", "0"],
+        "c": 0
+      },
+      {
+        "q": "∫1 à 4 √x dx =",
+        "a": ["14/3", "7/2", "3", "15/4"],
+        "c": 0
+      },
+      {
+        "q": "∫0 à 1 (e^x + 1) dx =",
+        "a": ["e", "e - 1", "e + 1", "1"],
+        "c": 2
+      },
+      {
+        "q": "Une primitive de 1/cos²x est :",
+        "a": ["tan x", "-tan x", "1/sin x", "cotan x"],
+        "c": 0
+      },
+      {
+        "q": "Une primitive de 1/sin²x est :",
+        "a": ["-cotan x", "tan x", "cotan x", "-tan x"],
+        "c": 0
+      },
+      {
+        "q": "∫ sec²x dx =",
+        "a": ["tan x + C", "-tan x + C", "cotan x + C", "-cotan x + C"],
+        "c": 0
+      },
+      {
+        "q": "∫ csc²x dx =",
+        "a": ["-cotan x + C", "tan x + C", "cotan x + C", "-tan x + C"],
+        "c": 0
+      },
+      {
+        "q": "Si ∫0 à 2 f = 5 et ∫2 à 4 f = 3, alors ∫0 à 4 f =",
+        "a": ["8", "2", "15", "-2"],
+        "c": 0
+      },
+      {
+        "q": "L'aire entre deux courbes f et g sur [a,b] est :",
+        "a": ["∫a à b |f(x)-g(x)| dx", "∫a à b (f(x)+g(x)) dx", "|∫a à b f(x) dx - ∫a à b g(x) dx|", "F(b)-G(b)"],
+        "c": 0
+      },
+      {
+        "q": "Pour f positive, l'aire sous f de a à b est la même que :",
+        "a": ["∫a à b f(x) dx", "-∫a à b f(x) dx", "∫b à a f(x) dx", "F(a)-F(b)"],
+        "c": 0
+      },
+      {
+        "q": "Si f(x) ≤ M sur [a,b], alors ∫a à b f(x) dx ≤",
+        "a": ["M(b-a)", "m(b-a)", "M", "f(b)(b-a)"],
+        "c": 0
+      },
+      {
+        "q": "Le théorème fondamental dit : si F'=f, alors d/dx ∫a à x f(t) dt =",
+        "a": ["f(x)", "F(x)", "0", "f(a)"],
+        "c": 0
+      },
+      {
+        "q": "∫0 à π/4 sec²x dx =",
+        "a": ["1", "0", "√2", "2"],
+        "c": 0
+      },
+      {
+        "q": "∫ xe^(x²) dx =",
+        "a": ["(1/2) e^(x²) + C", "e^(x²) + C", "x² e^(x²) + C", "2e^(x²) + C"],
+        "c": 0
+      },
+      {
+        "q": "Une primitive de 1/(x ln x) pour x>1 est :",
+        "a": ["ln|ln x|", "1/ln x", "ln x", "x/ln x"],
+        "c": 0
+      },
+      {
+        "q": "∫ dx/(1+x²) =",
+        "a": ["arctan x + C", "ln(1+x²) + C", "arcsin x + C", "1/(1+x²)²"],
+        "c": 0
+      },
+      {
+        "q": "∫ dx/√(1-x²) =",
+        "a": ["arcsin x + C", "arccos x + C", "arctan x + C", "ln|√(1-x²)|"],
+        "c": 0
+      },
+      {
+        "q": "La primitive de f(x) = 3x² + 2x + 1 est :",
+        "a": ["x³ + x² + x + C", "x³ + x² + C", "6x + 2 + C", "x³ + 2x² + x"],
+        "c": 0
+      },
+      {
+        "q": "∫ (x³ - 2x) dx =",
+        "a": ["(x⁴/4) - x² + C", "3x² - 2 + C", "x⁴ - x² + C", "(x⁴/4) - 2x + C"],
+        "c": 0
+      },
+      {
+        "q": "Si ∫1 à 3 f = 4 et ∫1 à 5 f = 10, alors ∫3 à 5 f =",
+        "a": ["6", "14", "2", "-6"],
+        "c": 0
+      },
+      {
+        "q": "L'intégrale définie ∫a à b f(x) dx est un :",
+        "a": ["Nombre réel", "Fonction", "Variable", "Vecteur"],
+        "c": 0
+      },
+      {
+        "q": "Pour calculer ∫ sin²x dx, on utilise :",
+        "a": ["Linéarisation", "Intégration par parties", "Changement de variable", "Dérivation"],
+        "c": 0
+      },
+      {
+        "q": "Une primitive de f(x) = 1/(x+2) est :",
+        "a": ["ln|x+2|", "1/(x+2)²", "ln(x²+2)", "arctan(x+2)"],
+        "c": 0
+      },
+      {
+        "q": "La primitive de f(x) = e^(3x) est :",
+        "a": ["(1/3) e^(3x)", "3 e^(3x)", "e^(3x)", "x e^(3x)"],
+        "c": 0
+      },
+      {
+        "q": "∫0 à 1 (x² + 1) dx =",
+        "a": ["4/3", "1", "2", "5/3"],
+        "c": 0
+      },
+      {
+        "q": "La formule ∫ u dv = uv - ∫ v du est appelée :",
+        "a": ["Intégration par parties", "Chasles", "Linéarité", "Changement de variable"],
+        "c": 0
+      }
+    ]
+  }
+]
